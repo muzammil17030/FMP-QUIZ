@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Game </title>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="main" class="main">
+		<h1> Quiz Game</h1>
+		<div id="question"></div>
+		<div id="choices"></div>
+		<div class="btn">
+			<button onclick="checkAnswer()">Submit Answer</button>
+			<button onclick="restart()">Restart Test</button>
+		</div>
+	</div>
+	<div class="result">
+		<span id="marks"></span>
+		<div id="circle"></div>
+	</div>
+	<script  type="module" src="app.js">
+	</script>
+</body>
+
+</html>
